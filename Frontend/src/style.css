@@ -1,0 +1,14 @@
+.glowing-running-text {
+    animation: glowAndRun 3s ease-in-out infinite alternate;
+}
+
+@keyframes glowAndRun {
+    0% {
+        text-shadow: 0 0 10px #fff, 0 0 20px #ff0, 0 0 30px #f0f;
+        transform: translateX(0);
+    }
+    100% {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff0, 0 0 40px #f0f;
+        transform: translateX(20px);
+    }
+}
